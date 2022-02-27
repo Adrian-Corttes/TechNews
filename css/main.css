@@ -199,3 +199,9 @@ hr{
 .footer-container__list li a{
    color: white;
 }
+/* footer */
+.footer{
+   font-size: 12px;
+   font-weight: 0;
+   text-align: center;
+}
