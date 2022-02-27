@@ -134,3 +134,16 @@ hr{
 .content{
    padding: 20px;
 }
+
+/* baner breaking news */
+.baner-news{
+   width: 100%;
+   height: 350px;
+   background: url(../assets/img/baner-two.jpg) no-repeat center center/cover;
+   color: var(--color_black);
+   margin-bottom: 20px;
+}
+
+.content-news{
+   padding: 150px 0 0 30px;
+}
