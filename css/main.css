@@ -62,6 +62,26 @@ hr{
    border-bottom: 2px solid var(--color_black);
 }
 
+.btn__menu{
+   position: relative;
+   cursor: pointer;
+   font-size: 1.4rem;
+}
+
+/** Media queries */
+@media(max-width: 650px){
+   .nav__menu{
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: white;
+      height: 400px;
+      width: 150px;
+      border: solid 1px black;
+   }
+}
+
 /* header */
 .header{
    width: 100%;
@@ -126,6 +146,16 @@ hr{
    position: absolute;
    bottom: -35px;
 }
+/* media queries */
+@media(max-width:650px){
+   .news{
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .news-cards{
+      margin-bottom: 20px;
+   }
+}
+
 /* breaking news */
 .breaking-news{
    width: 100%;
